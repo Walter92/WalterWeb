@@ -96,7 +96,7 @@
 				</span>&nbsp;学生管理
 				<span>&nbsp; <span><img src="../images/arror.gif"
 							width="7" height="11" border="0" alt="">
-				</span>&nbsp;<a href="<%=path%>/students/Students_query.cn.edu.uestc.cn.edu.uestc.action">学生列表</a><span>&nbsp;
+				</span>&nbsp;<a href="<%=path%>/students/students_query.action">学生列表</a><span>&nbsp;
 				
 			</div>
 		</div>

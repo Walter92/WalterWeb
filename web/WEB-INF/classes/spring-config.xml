@@ -14,7 +14,6 @@
     <!--扫描项目中的spring注解-->
     <context:component-scan base-package="cn.edu.uestc.*"/>
 
-
     <!--配置数据源c3p0-->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/test?useUnicode=true&amp;charEncoding=UTF-8"/>
@@ -36,6 +35,7 @@
                 <!--hibernate映射文件列表-->
                 <value>cn/edu/uestc/entity/students.hbm.xml</value>
                 <value>cn/edu/uestc/entity/users.hbm.xml</value>
+                <value>cn/edu/uestc/entity/teachers.hbm.xml</value>
             </list>
         </property>
         <!--hibernate属性-->
@@ -43,7 +43,7 @@
             <value>
                 hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
                 hibernate.hbm2ddl.auto=update
-                hibernate.show_sql=false
+                hibernate.show_sql=true
                 hibernate.format_sql=true
             </value>
         </property>
@@ -57,5 +57,4 @@
     <tx:annotation-driven transaction-manager="txManager"/>
 <!--
     <aop:config proxy-target-class="true" />-->
-
 </beans>
