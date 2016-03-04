@@ -13,11 +13,11 @@ import java.util.*;
  * Created by walter on 15-12-25.
  */
 public class WalterHibernateDaoSupport extends HibernateDaoSupport {
-    public List findByPage(final String sql, final int offset, final int pageSize){
-        List list=getHibernateTemplate().execute(new HibernateCallback<List>() {
+    public List findByPage(final String sql, final int offset, final int pageSize) {
+        List list = getHibernateTemplate().execute(new HibernateCallback<List>() {
             @Override
             public List doInHibernate(Session session) throws HibernateException, SQLException {
-                List result  = session.createQuery(sql).setFirstResult(offset).setMaxResults(pageSize).list();
+                List result = session.createQuery(sql).setFirstResult(offset).setMaxResults(pageSize).list();
                 return result;
 
             }
@@ -25,14 +25,14 @@ public class WalterHibernateDaoSupport extends HibernateDaoSupport {
         return list;
     }
 
-    public List findByPage(final String sql,final Object[] values, final int offset, final int pageSize){
-        List list=getHibernateTemplate().execute(new HibernateCallback<List>() {
+    public List findByPage(final String sql, final Object[] values, final int offset, final int pageSize) {
+        List list = getHibernateTemplate().execute(new HibernateCallback<List>() {
             @Override
             public List doInHibernate(Session session) throws HibernateException, SQLException {
-                Query query  = session.createQuery(sql);
+                Query query = session.createQuery(sql);
 
-                for(int i=0;i<values.length;i++){
-                    query.setParameter(i,values[i]);
+                for (int i = 0; i < values.length; i++) {
+                    query.setParameter(i, values[i]);
                 }
 
                 List result = query.setFirstResult(offset).setMaxResults(pageSize).list();

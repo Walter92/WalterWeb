@@ -23,29 +23,29 @@ public class TeachersTest {
     }
 
     @Test
-    public void testTeacherDaoQueryAll(){
+    public void testTeacherDaoQueryAll() {
         List<Teacher> list = teacherDao.queryAll();
         Iterator<Teacher> iterator = list.iterator();
-        while(iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }
 
     @Test
-    public void testTeacherDaofindByCondition(){
+    public void testTeacherDaofindByCondition() {
         Teacher teacher = new Teacher();
 //        teacher.setTid(1);
         teacher.setName("ter");
         List<Teacher> list = teacherDao.findByCondition(teacher);
         Iterator<Teacher> iterator = list.iterator();
-        while(iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }
 
     @Test
-    public void testTeacherDaoSave(){
-        Teacher teacher = new Teacher(null,"walter","male","java",null);
+    public void testTeacherDaoSave() {
+        Teacher teacher = new Teacher(null, "walter", "male", "java", null);
         Boolean success = teacherDao.add(teacher);
         System.out.print(success);
     }

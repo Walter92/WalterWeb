@@ -18,7 +18,7 @@
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/test?useUnicode=true&amp;charEncoding=UTF-8"/>
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
-        <property name="user" value="root" />
+        <property name="user" value="root"/>
         <property name="password" value="123456"/>
 
         <property name="maxPoolSize" value="10"/>
@@ -55,6 +55,6 @@
     </bean>
     <!--使spring的注解生效-->
     <tx:annotation-driven transaction-manager="txManager"/>
-<!--
-    <aop:config proxy-target-class="true" />-->
+    <!--
+        <aop:config proxy-target-class="true" />-->
 </beans>

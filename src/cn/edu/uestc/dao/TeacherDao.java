@@ -9,10 +9,15 @@ import java.util.List;
  */
 public interface TeacherDao {
     List<Teacher> queryAll();
+
     List<Teacher> findByCondition(Teacher teacher);
+
     Teacher query(Integer tid);
+
     boolean add(Teacher teacher);
+
     boolean update(Teacher teacher);
+
     boolean delete(Teacher teacher);
-   // String getMaxSid();
+    // String getMaxSid();
 }

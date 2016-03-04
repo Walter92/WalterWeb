@@ -18,43 +18,49 @@ import java.util.List;
 public class TeachersAction extends SuperAction implements ModelDriven<Teacher> {
 
     Teacher teacher = new Teacher();
-
+    //自动注入
     @Resource(name = "teachersServiceImpl")
     TeachersService teachersService;
 
-    public String query(){
-        List<Teacher> list=teachersService.queryAll();
-        session.setAttribute("teachers_list",list);
+    //查询所有教师
+    public String query() {
+        List<Teacher> list = teachersService.queryAll();
+        session.setAttribute("teachers_list", list);
         return "query_success";
     }
 
-    public String add(){
+    //添加一个教师
+    public String add() {
         teachersService.add(teacher);
         return "add_success";
     }
 
-    public String delete(){
+    //删除一个教师
+    public String delete() {
         teachersService.delete(teacher);
         return "delete_success";
     }
 
-    public String modify(){
-        String tid=request.getParameter("tid");
-        Teacher teacher1=teachersService.queryById(tid);
-       // System.out.println(teacher1);
-        session.setAttribute("modify_teacher",teacher1);
+    //更改教师信息和update配合使用，首先查询出来要更改的教师信息
+    public String modify() {
+        String tid = request.getParameter("tid");
+        Teacher teacher1 = teachersService.queryById(tid);
+        // System.out.println(teacher1);
+        session.setAttribute("modify_teacher", teacher1);
         return "teachers_modify";
     }
 
-    public String update(){
-       // System.out.println(teacher);
+    //将更改后的教师信息写回到服务器数据库
+    public String update() {
+        // System.out.println(teacher);
         teachersService.update(teacher);
         return "update_success";
     }
 
-    public String find(){
-        List<Teacher> list=teachersService.findByCondtion(teacher);
-        session.setAttribute("teachers_listByFind",list);
+    //根据条件查询一个教师信息
+    public String find() {
+        List<Teacher> list = teachersService.findByCondtion(teacher);
+        session.setAttribute("teachers_listByFind", list);
         return "find_success";
     }
 

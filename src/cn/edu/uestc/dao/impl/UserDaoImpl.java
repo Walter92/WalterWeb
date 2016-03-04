@@ -13,28 +13,30 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 @Repository("userDaoImpl")
-public class UserDaoImpl implements UserDao{
+public class UserDaoImpl implements UserDao {
     @Autowired
-	private SessionFactory sessionFactory;
+    private SessionFactory sessionFactory;
 
 
-    public UserDaoImpl(){}
-	@Override
-	public void addUser(Users user) {
-		
-	}
+    public UserDaoImpl() {
+    }
+
+    @Override
+    public void addUser(Users user) {
+
+    }
 
     @Transactional(propagation = Propagation.NOT_SUPPORTED)
-	@Override
-	public List<Users> query(String username) {
-		String hql="";
-		List<Users> list=null;
+    @Override
+    public List<Users> query(String username) {
+        String hql = "";
+        List<Users> list = null;
 
-		hql="from Users where username=?";
-		Query query=sessionFactory.getCurrentSession().createQuery(hql);
-		query.setParameter(0, username);
-		list=query.list();
+        hql = "from Users where username=?";
+        Query query = sessionFactory.getCurrentSession().createQuery(hql);
+        query.setParameter(0, username);
+        list = query.list();
 
-		return list;
-	}
+        return list;
+    }
 }

@@ -18,6 +18,7 @@ import cn.edu.uestc.entity.Students;
 
 public class StudentsTest {
     StudentsDao sdao;
+
     {
         ApplicationContext act =
                 new ClassPathXmlApplicationContext("spring-config.xml");
@@ -37,31 +38,34 @@ public class StudentsTest {
 //		SchemaExport export=new SchemaExport(cong);
 //		export.create(true, true);
 //	}
-	
-	@Test
-	public void testQueryAll(){
-		List<Students> list=sdao.queryAll();
-		for(Students stu:list)
-			System.out.println(stu);
-	}
-	@Test
-	public void testQuery(){
-		Students stu=sdao.query("S0000001");
-		System.out.println(stu);
-	}
-	@Test
-	public void testAdd(){
-		List<Students> list=new ArrayList<Students>();
-		list.add(new Students( "S0000006",  "孙悟空",  "男",  new Date(), "花果山"));
-		list.add(new Students( "S0000006",  "孙悟空",  "男",  new Date(), "花果山"));
-		for(Students stu:list)
-			sdao.add(stu);
-	}
-	@Test
-	public void testUpdate(){
-		Students stu=new Students( "S0000001",  "王母",  "女",  new Date(), "天庭");
-		sdao.update(stu);
-	}
+
+    @Test
+    public void testQueryAll() {
+        List<Students> list = sdao.queryAll();
+        for (Students stu : list)
+            System.out.println(stu);
+    }
+
+    @Test
+    public void testQuery() {
+        Students stu = sdao.query("S0000001");
+        System.out.println(stu);
+    }
+
+    @Test
+    public void testAdd() {
+        List<Students> list = new ArrayList<Students>();
+        list.add(new Students("S0000006", "孙悟空", "男", new Date(), "花果山"));
+        list.add(new Students("S0000006", "孙悟空", "男", new Date(), "花果山"));
+        for (Students stu : list)
+            sdao.add(stu);
+    }
+
+    @Test
+    public void testUpdate() {
+        Students stu = new Students("S0000001", "王母", "女", new Date(), "天庭");
+        sdao.update(stu);
+    }
 //	@Test
 //	public void testNewSid(){
 //		StudentsServiceImpl sdao=new StudentsServiceImpl();

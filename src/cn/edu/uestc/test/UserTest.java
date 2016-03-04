@@ -15,21 +15,23 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class UserTest {
 
     UserService service;
+
     {
-        ApplicationContext act=new ClassPathXmlApplicationContext("spring-config.xml");
-        service= (UserService) act.getBean("userServiceImpl");
+        ApplicationContext act = new ClassPathXmlApplicationContext("spring-config.xml");
+        service = (UserService) act.getBean("userServiceImpl");
     }
-	@Test
-	public void usersTest(){
-		String name="walter";
-		UserDao userdao= new UserDaoImpl();
-		List<Users> users=userdao.query(name);
-		System.out.println(users);
-	}
-	
-	@Test
-	public void testUserServiceLogin(){
-		System.out.println(service.login(new Users(1,"walter","123456")));
-		
-	}
+
+    @Test
+    public void usersTest() {
+        String name = "walter";
+        UserDao userdao = new UserDaoImpl();
+        List<Users> users = userdao.query(name);
+        System.out.println(users);
+    }
+
+    @Test
+    public void testUserServiceLogin() {
+        System.out.println(service.login(new Users(1, "walter", "123456")));
+
+    }
 }

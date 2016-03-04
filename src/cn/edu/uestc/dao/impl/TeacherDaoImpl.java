@@ -20,15 +20,15 @@ public class TeacherDaoImpl implements TeacherDao {
 
     private SessionFactory sessionFactory;
 
-    @Resource(name="sessionFactory")
-    public void setSessionFactory(SessionFactory sessionFactory){
-        this.sessionFactory=sessionFactory;
+    @Resource(name = "sessionFactory")
+    public void setSessionFactory(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
     }
 
     @Override
     public List<Teacher> queryAll() {
         Session session = sessionFactory.getCurrentSession();
-        String hql="from Teacher";
+        String hql = "from Teacher";
         Query query = session.createQuery(hql);
         List<Teacher> teacherArrayList = query.list();
         return teacherArrayList;
@@ -43,13 +43,13 @@ public class TeacherDaoImpl implements TeacherDao {
 
         StringBuffer hql = new StringBuffer("from Teacher where 1=1 ");
 
-        if(tid!=null){
-            hql.append(" and tid="+tid);
+        if (tid != null) {
+            hql.append(" and tid=" + tid);
         }
 
 
-        if(name!=null){
-            hql.append(" and name like '%"+name+"%'");
+        if (name != null) {
+            hql.append(" and name like '%" + name + "%'");
         }
 
 
@@ -57,7 +57,7 @@ public class TeacherDaoImpl implements TeacherDao {
 //        query.setParameter(0,tid);
 //      query.setParameter(1,name);
 
-        list=query.list();
+        list = query.list();
 
         return list;
     }
@@ -67,9 +67,9 @@ public class TeacherDaoImpl implements TeacherDao {
         Teacher teacher;
         String hql = "from Teacher where tid=?";
 
-        Query query=sessionFactory.getCurrentSession().createQuery(hql);
-        query.setParameter(0,tid);
-        teacher=(Teacher)query.uniqueResult();
+        Query query = sessionFactory.getCurrentSession().createQuery(hql);
+        query.setParameter(0, tid);
+        teacher = (Teacher) query.uniqueResult();
         return teacher;
     }
 
@@ -77,7 +77,7 @@ public class TeacherDaoImpl implements TeacherDao {
     public boolean add(Teacher teacher) {
         try {
             sessionFactory.getCurrentSession().save(teacher);
-        }catch (Exception e){
+        } catch (Exception e) {
             return false;
         }
         return true;
@@ -93,7 +93,7 @@ public class TeacherDaoImpl implements TeacherDao {
     public boolean delete(Teacher teacher) {
         //String hql = "delete from Teacher where tid=?";
         sessionFactory.getCurrentSession().delete(teacher);
-       // query.setParameter(0,tid);
+        // query.setParameter(0,tid);
 
         return true;
     }

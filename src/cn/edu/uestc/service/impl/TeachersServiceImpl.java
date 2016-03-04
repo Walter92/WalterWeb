@@ -17,27 +17,27 @@ public class TeachersServiceImpl implements TeachersService {
 
     @Override
     public List<Teacher> queryAll() {
-        List<Teacher> list=teacherDao.queryAll();
+        List<Teacher> list = teacherDao.queryAll();
         return list;
     }
 
     @Override
     public List<Teacher> findByCondtion(Teacher teacher) {
-        List<Teacher> list=teacherDao.findByCondition(teacher);
+        List<Teacher> list = teacherDao.findByCondition(teacher);
         return list;
     }
 
     @Override
     public Teacher queryById(String tid) {
         Integer itid = Integer.parseInt(tid);
-        Teacher teacher=teacherDao.query(itid);
+        Teacher teacher = teacherDao.query(itid);
 
         return teacher;
     }
 
     @Override
     public boolean delete(Teacher teacher) {
-       // Integer tid = teacher.getTid();
+        // Integer tid = teacher.getTid();
         teacherDao.delete(teacher);
         return true;
     }

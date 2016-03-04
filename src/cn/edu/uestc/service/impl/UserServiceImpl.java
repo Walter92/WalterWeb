@@ -12,28 +12,29 @@ import javax.annotation.Resource;
 @Service("userServiceImpl")
 public class UserServiceImpl implements UserService {
 
-	private UserDao userDao;
+    private UserDao userDao;
 
-    @Resource(name="userDaoImpl")
-    public void setUdao(UserDao udao){
-        this.userDao=udao;
+    @Resource(name = "userDaoImpl")
+    public void setUdao(UserDao udao) {
+        this.userDao = udao;
     }
 
-	
-	public UserServiceImpl(){
+
+    public UserServiceImpl() {
 
     }
-	@Override
-	public boolean login(Users user) {
-		List<Users> list=userDao.query(user.getUsername());
-		if(list!=null&&list.size()!=0)
-			return true;
-		return false;
-	}
 
-	@Override
-	public void logout() {
+    @Override
+    public boolean login(Users user) {
+        List<Users> list = userDao.query(user.getUsername());
+        if (list != null && list.size() != 0)
+            return true;
+        return false;
+    }
 
-	}
+    @Override
+    public void logout() {
+
+    }
 
 }

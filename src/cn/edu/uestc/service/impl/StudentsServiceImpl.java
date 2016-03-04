@@ -13,57 +13,68 @@ import javax.annotation.Resource;
 @Service("studentsServiceImpl")
 public class StudentsServiceImpl implements StudentsService {
 
-	private StudentsDao sdao;
-    @Resource(name="studentsDaoImpl")
+    private StudentsDao sdao;
+
+    @Resource(name = "studentsDaoImpl")
     public void setSdao(StudentsDao sdao) {
         this.sdao = sdao;
     }
 
+    //增加一个学生
     @Override
-	public boolean add(Students stu) {
-		stu.setSid(getNewStudent());
-		sdao.add(stu);
-		return true;
-	}
+    public boolean add(Students stu) {
+        //为新增学生设置学号
+        stu.setSid(getNewStudent());
+        sdao.add(stu);
+        return true;
+    }
 
-	@Override
-	public boolean delete(Students stu) {
-		return sdao.delete(stu);
-	}
+    //删除一个学生
+    @Override
+    public boolean delete(Students stu) {
+        return sdao.delete(stu);
+    }
 
-	@Override
-	public List<Students> queryAll() {
-		List<Students> slist = sdao.queryAll();
-		return slist;
-	}
+    //查询所有学生列表
+    @Override
+    public List<Students> queryAll() {
+        List<Students> slist = sdao.queryAll();
+        return slist;
+    }
 
-	@Override
-	public boolean update(Students stu) {
-		sdao.update(stu);
-		return false;
-	}
+    //更新一个学生信息
+    @Override
+    public boolean update(Students stu) {
+        sdao.update(stu);
+        return false;
+    }
 
-	@Override
-	public Students queryById(String sid) {
-		return sdao.query(sid);
+    //通过id查询一个学生
+    @Override
+    public Students queryById(String sid) {
+        return sdao.query(sid);
 
-	}
+    }
 
-	protected String getNewStudent() {
-		String maxSid = sdao.getMaxSid();
-		int i = Integer.parseInt(maxSid.substring(1));
-		String temp = String.valueOf(++i);
-		int len = temp.length();
-		for (int j = 0; j < 7 - len; j++)
-			temp = "0" + temp;
-		String newSid = "S" + temp;
-		return newSid;
-	}
+    //生成一个新的学生学号，学号格式S0000001
+    protected String getNewStudent() {
+        //获取当前数据表中最大学生学号
+        String maxSid = sdao.getMaxSid();
+        int i = Integer.parseInt(maxSid.substring(1));
+        //将学号后面部分数字加一
+        String temp = String.valueOf(++i);
+        int len = temp.length();
+        for (int j = 0; j < 7 - len; j++)
+            temp = "0" + temp;
+        //返回新的学生学号字符串
+        String newSid = "S" + temp;
+        return newSid;
+    }
 
-	@Override
-	public List<Students> findByCondtion(Students student) {
-		
-		return sdao.findBycondition(student);
-	}
+    //按照条件查
+    @Override
+    public List<Students> findByCondtion(Students student) {
+        return sdao.findBycondition(student);
+    }
 
 }
