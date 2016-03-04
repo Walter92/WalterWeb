@@ -1,6 +1,6 @@
 package cn.edu.uestc.interceptor;
 
-import java.util.Map;
+import java.util.*;
 
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionInvocation;

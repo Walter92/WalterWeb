@@ -18,7 +18,8 @@ import javax.annotation.Resource;
  */
 @Transactional
 @Repository("studentsDaoImpl")
-public class StudentsDaoImpl implements StudentsDao {
+public class StudentsDaoImpl implements StudentsDao
+{
 
     @Resource(name = "sessionFactory")
     private SessionFactory sessionFactory;

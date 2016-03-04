@@ -1,9 +1,13 @@
 package cn.edu.uestc.test;
 
+import java.nio.CharBuffer;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 
+import cn.edu.uestc.dao.impl.StudentsDaoImpl;
 import org.junit.Test;
 
 import org.springframework.context.ApplicationContext;
@@ -18,6 +22,8 @@ public class StudentsTest {
         ApplicationContext act =
                 new ClassPathXmlApplicationContext("spring-config.xml");
         sdao = (StudentsDao) act.getBean("studentsDaoImpl");
+        System.out.println(sdao.getClass().getName());
+
 
     }
 
