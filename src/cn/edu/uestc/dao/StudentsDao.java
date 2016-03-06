@@ -18,4 +18,5 @@ public interface StudentsDao {
     boolean delete(Students stu);
 
     String getMaxSid();
+    public List<Students> queryDetailAll();
 }

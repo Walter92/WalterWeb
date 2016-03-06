@@ -44,13 +44,26 @@ public class StudentsDaoImpl implements StudentsDao {
         return true;
     }
 
-    //查询所有学生，不使用事务
+    //查询所有学生姓名和学号，不使用事务
     @Transactional(propagation = Propagation.NOT_SUPPORTED)
     @Override
     public List<Students> queryAll() {
         List<Students> list = null;
         String hql = "";
-        hql = "from Students";
+        hql = "select new Students(sid,sname) from Students";
+        Query query = sessionFactory
+                .getCurrentSession().createQuery(hql);
+        list = query.list();
+        return list;
+    }
+
+    //查询所有学生详细信息，不使用事务
+    @Transactional(propagation = Propagation.NOT_SUPPORTED)
+    @Override
+    public List<Students> queryDetailAll() {
+        List<Students> list = null;
+        String hql = "";
+        hql = "from Students ";
         Query query = sessionFactory
                 .getCurrentSession().createQuery(hql);
         list = query.list();

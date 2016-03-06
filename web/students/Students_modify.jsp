@@ -156,6 +156,27 @@
 								value="<s:date name="#session.modify_student.birthday" format="yyyy-MM-dd"/>" />
 						</td>
 					</tr>
+
+                    <tr>
+                        <td>
+                            专业：
+                        </td>
+                        <td>
+                            <input type="text" name="major"
+                                   value='<s:property value="#session.modify_student.major"/>' />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            课程设计：
+                        </td>
+                        <td>
+                            <input type="text" name="project"
+                                   value='<s:property value="#session.modify_student.project"/>' />
+                        </td>
+                    </tr>
+
 					<tr>
 						<td>
 							地址：
@@ -165,6 +186,17 @@
 								value='<s:property value="#session.modify_student.address"/>' />
 						</td>
 					</tr>
+
+                    <tr>
+                        <td>
+                            电话：
+                        </td>
+                        <td>
+                            <input type="text" name="tel"
+                                   value='<s:property value="#session.modify_student.tel"/>' />
+                        </td>
+                    </tr>
+
 					<tr>
 						<td colspan="2" align="center">
 							<input class="button" type="submit" value="修改">

@@ -94,7 +94,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</div>
 </div>
 <div id="mainContainer">
-<!-- 从session中获取学生集合 -->
+<!-- 从session中获取集合 -->
 
 <table class="default" width="100%">
 	<col width="10%">

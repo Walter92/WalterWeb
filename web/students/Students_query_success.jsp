@@ -99,27 +99,25 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <table class="default" width="100%">
 	<col width="10%">
 	<col width="20%">
-	<col width="5%">
-	<col width="20%">
-	<col width="30%">
-	<col width="15%">
+	<col width="40%">
+    <col width="10%">
 	<tr class="title">
 		<td>学号</td>
 		<td>姓名</td>
-		<td>性别</td>
-		<td>出生日期</td>
-		<td>地址</td>
-		<td>操作</td>
+		<td>操作1</td>
+        <td>操作2</td>
 	</tr>
 	
 	<!-- 遍历开始 -->
 	<s:iterator value="#session.students_list" var="stu">
 	<tr class="list">
 		<td><s:property value="#stu.sid"/></td>
-		<td><a href="<%=path%>/students/students_modify.action?sid=<s:property value="#stu.sid"/>"><s:property value="#stu.sname"/></a></td>
-		<td><s:property value="#stu.gender"/></td>
-		<td><s:date name="#stu.birthday" format="yyyy年MM月dd日"/></td>
-		<td><s:property value="#stu.address"/></td>
+		<td><a href="<%=path%>/students/students_queryDetailed.action?sid=<s:property value="#stu.sid"/>">
+            <s:property value="#stu.sname"/></a>
+            </td>
+
+		<td><a href="<%=path%>/students/students_modify.action?sid=<s:property value="#stu.sid"/>">修改学生资料</a></td>
+
 		<td><a href="<%=path%>/students/students_delete.action?sid=<s:property value="#stu.sid"/>" onclick="javascript: return confirm('真的要删除吗？');">删除</a></td>
 	</tr>
 	</s:iterator>

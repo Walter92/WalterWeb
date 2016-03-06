@@ -19,6 +19,8 @@ public class UserTest {
     {
         ApplicationContext act = new ClassPathXmlApplicationContext("spring-config.xml");
         service = (UserService) act.getBean("userServiceImpl");
+
+//        Math.pow()
     }
 
     @Test

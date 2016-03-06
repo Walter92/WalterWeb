@@ -6,13 +6,19 @@
 <hibernate-mapping>
 
     <class name="cn.edu.uestc.entity.Students">
+
         <id name="sid" type="java.lang.String">
             <generator class="assigned"/>
         </id>
+
         <property name="sname" type="java.lang.String"/>
         <property name="gender" type="java.lang.String"/>
         <property name="address" type="java.lang.String"/>
         <property name="birthday" type="date"/>
+        <property name="major" type="java.lang.String"/>
+        <property name="tel" type="java.lang.String"/>
+        <property name="project" type="java.lang.String"/>
+
     </class>
 
 </hibernate-mapping>

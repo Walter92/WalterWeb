@@ -45,6 +45,7 @@
             <result name="update_success">/students/Students_modify_success.jsp</result>
             <result name="find_success">/students/Students_find_success.jsp</result>
             <result name="login_failure">/users/Users_login.jsp</result>
+            <result name="query_detailed_success">/students/Students_detailed.jsp</result>
         </action>
     </package>
 

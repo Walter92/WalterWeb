@@ -12,7 +12,7 @@ public class Teacher {
     private String subject;
     private String address;
 
-    private Set<Students> studentsList;
+//    private Set<Students> studentsList;
 
 
     public Teacher() {
@@ -44,13 +44,13 @@ public class Teacher {
         return 0;
     }
 
-    public Set<Students> getStudentsList() {
-        return studentsList;
-    }
-
-    public void setStudentsList(Set<Students> studentsList) {
-        this.studentsList = studentsList;
-    }
+//    public Set<Students> getStudentsList() {
+//        return studentsList;
+//    }
+//
+//    public void setStudentsList(Set<Students> studentsList) {
+//        this.studentsList = studentsList;
+//    }
 
     public Integer getTid() {
         return tid;
@@ -100,7 +100,7 @@ public class Teacher {
                 ", gender='" + gender + '\'' +
                 ", subject='" + subject + '\'' +
                 ", address='" + address + '\'' +
-                ", studentsList=" + studentsList +
+//                ", studentsList=" + studentsList +
                 '}';
     }
 

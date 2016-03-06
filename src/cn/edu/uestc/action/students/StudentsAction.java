@@ -32,13 +32,26 @@ public class StudentsAction extends SuperAction implements ModelDriven<Students>
     }
 
 
-    //查询所有学生
+    //查询所有学生,只查询姓名和学号
     public String query() {
         //调用service层获取所有学生的列表
         List<Students> slist = studentsService.queryAll();
+       // for(Students stu: slist){
+          //  System.out.println(slist);
+        //}
         //将学生列表放入session中，在jsp页面通过struts2标签迭代输出
         session.setAttribute("students_list", slist);
         return "query_success";
+    }
+
+    //查询所有学生,只查询姓名和学号
+    public String queryDetailed() {
+        String sid = request.getParameter("sid");
+        //调用service层获取所有学生的列表
+        Students student = studentsService.queryById(sid);
+        //将学生列表放入session中，在jsp页面通过struts2标签迭代输出
+        session.setAttribute("students_detailed", student);
+        return "query_detailed_success";
     }
 
     public StudentsAction() {

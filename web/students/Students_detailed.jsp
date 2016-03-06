@@ -104,18 +104,27 @@
 		</div>
 		<div id="mainContainer">
 			<!-- 从session中获取学生集合 -->
-			<strong>添加学生资料</strong>
+			<strong>学生资料</strong>
 			<br>
 			<br>
-			<form name="addForm" action="<%=path%>/students/students_add.action"
-				method="post">
+
+
 				<table width="400">
+					<tr>
+						<td width="30%">
+							学号：
+						</td>
+						<td>
+							<s:property value="#session.students_detailed.sid"/>
+
+						</td>
+					</tr>
 					<tr>
 						<td width="30%">
 							姓名：
 						</td>
 						<td>
-							<input type="text" name="sname" />
+								<s:property value="#session.students_detailed.sname"/>
 						</td>
 					</tr>
 					<tr>
@@ -123,20 +132,16 @@
 							性别：
 						</td>
 						<td>
-							<input type="radio" name="gender" value="男" checked="checked" />
-							男
-							<input type="radio" name="gender" value="女" />
-							女
+                            <s:property value="#session.students_detailed.gender"/>
 						</td>
 					</tr>
+
 					<tr>
 						<td>
 							出生日期：
 						</td>
 						<td>
-							<input name="birthday" type="text" id="control_date" size="20"
-								maxlength="10" onclick="new Calendar().show(this);"
-								readonly="readonly" />
+							<s:date name="#session.students_detailed.birthday" format="yyyy-MM-dd"/>
 						</td>
 					</tr>
 
@@ -145,7 +150,7 @@
                             专业：
                         </td>
                         <td>
-                            <input type="text" name="major" />
+                            <s:property value="#session.students_detailed.major"/>
                         </td>
                     </tr>
 
@@ -154,7 +159,7 @@
                             毕设题目：
                         </td>
                         <td>
-                            <input type="text" name="project" />
+                            <s:property value="#session.students_detailed.project"/>
                         </td>
                     </tr>
 
@@ -163,7 +168,7 @@
                             电话：
                         </td>
                         <td>
-                            <input type="text" name="tel" />
+                            <s:property value="#session.students_detailed.tel"/>
                         </td>
                     </tr>
 
@@ -172,16 +177,11 @@
 							地址：
 						</td>
 						<td>
-							<input type="text" name="address" />
+							<s:property value="#session.students_detailed.address"/>
 						</td>
 					</tr>
-					<tr>
-						<td colspan="2" align="center">
-							<input class="button" type="submit" value="添加">
-						</td>
-					</tr>
+
 				</table>
-			</form>
 
 
 		</div>

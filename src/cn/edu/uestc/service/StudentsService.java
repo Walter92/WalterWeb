@@ -17,4 +17,7 @@ public interface StudentsService {
 
     boolean update(Students stu);
 
+    public List<Students> queryDetailedAll();
+
+
 }

@@ -15,12 +15,12 @@
         <property name="subject" type="java.lang.String"/>
         <!--<property name="studentSet" type=""-->
 
-        <set name="studentsList">
-            <key>
-                <column name="students_id"/>
-            </key>
-            <one-to-many class="cn.edu.uestc.entity.Students"/>
-        </set>
+        <!--<set name="studentsList">-->
+            <!--<key>-->
+                <!--<column name="students_id"/>-->
+            <!--</key>-->
+            <!--<one-to-many class="cn.edu.uestc.entity.Students"/>-->
+        <!--</set>-->
 
     </class>
 

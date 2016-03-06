@@ -42,6 +42,15 @@ public class StudentsServiceImpl implements StudentsService {
         return slist;
     }
 
+    //查询所有学生列表
+    @Override
+    public List<Students> queryDetailedAll() {
+        List<Students> slist = sdao.queryDetailAll();
+        return slist;
+    }
+
+
+
     //更新一个学生信息
     @Override
     public boolean update(Students stu) {
@@ -53,7 +62,6 @@ public class StudentsServiceImpl implements StudentsService {
     @Override
     public Students queryById(String sid) {
         return sdao.query(sid);
-
     }
 
     //生成一个新的学生学号，学号格式S0000001
