@@ -54,4 +54,5 @@ window.onscroll=function(){screenAdapter();};
 window.onresize=function(){screenAdapter();};
 window.onload=function(){screenAdapter();};
 </script>
+
 </html>

@@ -344,4 +344,5 @@ if (!Array.prototype.pop) {
 		this.length = Math.max(this.length-1,0);
 		return lastElement;
 	}
+
 };

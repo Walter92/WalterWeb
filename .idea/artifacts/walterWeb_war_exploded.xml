@@ -2,10 +2,10 @@
   <artifact type="exploded-war" name="walterWeb:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/walterWeb_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="walterWeb/web/Web" />
+      <element id="javaee-facet-resources" facet="WalterWeb/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="walterWeb" />
+          <element id="module-output" name="WalterWeb" />
         </element>
       </element>
     </root>

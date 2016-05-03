@@ -22,7 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+<<<<<<< HEAD
         <module name="walterWeb" />
+=======
+        <module name="WalterWeb" />
+>>>>>>> d50aa0427e276c12437fe6fa22c5e4ec1179ffc3
       </profile>
     </annotationProcessing>
   </component>

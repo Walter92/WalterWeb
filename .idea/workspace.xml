@@ -64,10 +64,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Calendar3.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/js/Calendar3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="0" selection-start="3812" selection-end="3812" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3500">
+            <state line="369" column="25" selection-start="15141" selection-end="15141" vertical-scroll-proportion="15.325323" vertical-offset="934" max-vertical-offset="9500">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/default.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="235" column="1" selection-start="3675" selection-end="3675" vertical-scroll-proportion="0.0" vertical-offset="5070" max-vertical-offset="10975">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bulletin_list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/bulletin_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="complaint_list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/complaint_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -76,35 +103,55 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="65" selection-start="367" selection-end="367" vertical-scroll-proportion="-4.4117646" vertical-offset="75" max-vertical-offset="500">
+            <state line="9" column="65" selection-start="367" selection-end="367" vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="500">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Users_login.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/users/Users_login.jsp">
+      <file leaf-file-name="news_list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/news_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="312" column="26" selection-start="5773" selection-end="5773" vertical-scroll-proportion="-14.941176" vertical-offset="7292" max-vertical-offset="8200">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentsAction.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/uestc/action/students/StudentsAction.java">
+      <file leaf-file-name="role_list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/role_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="44" selection-start="685" selection-end="685" vertical-scroll-proportion="-2.5273368" vertical-offset="1783" max-vertical-offset="2350">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+      <file leaf-file-name="tree.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/tree.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="20" selection-start="1644" selection-end="1644" vertical-scroll-proportion="-3.2" vertical-offset="670" max-vertical-offset="1625">
+            <state line="103" column="0" selection-start="3258" selection-end="3258" vertical-scroll-proportion="-10.5" vertical-offset="2218" max-vertical-offset="2725">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dtree.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/components/dtree/dtree.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dtree.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/components/dtree/dtree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="345" column="5" selection-start="12028" selection-end="12028" vertical-scroll-proportion="0.0" vertical-offset="8284" max-vertical-offset="8825">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,9 +167,32 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/users/Users_login_main.jsp" />
+        <option value="$PROJECT_DIR$/web/users/Users_login_success.jsp" />
+        <option value="$PROJECT_DIR$/web/users/Users_login.jsp" />
+        <option value="$PROJECT_DIR$/web/teachers/Teachers_add.jsp" />
+        <option value="$PROJECT_DIR$/web/teachers/Teachers_add_success.jsp" />
+        <option value="$PROJECT_DIR$/web/teachers/Teachers_find.jsp" />
+        <option value="$PROJECT_DIR$/web/teachers/Teachers_find_success.jsp" />
+        <option value="$PROJECT_DIR$/web/teachers/Teachers_modify.jsp" />
+        <option value="$PROJECT_DIR$/web/teachers/Teachers_modify_success.jsp" />
+        <option value="$PROJECT_DIR$/web/teachers/Teachers_query_success.jsp" />
+        <option value="$PROJECT_DIR$/web/students/Students_add.jsp" />
+        <option value="$PROJECT_DIR$/web/students/Students_add_success.jsp" />
+        <option value="$PROJECT_DIR$/web/students/Students_detailed.jsp" />
+        <option value="$PROJECT_DIR$/web/students/Students_find.jsp" />
+        <option value="$PROJECT_DIR$/web/students/Students_find_success.jsp" />
+        <option value="$PROJECT_DIR$/web/students/Students_modify.jsp" />
+        <option value="$PROJECT_DIR$/web/students/Students_modify_success.jsp" />
+        <option value="$PROJECT_DIR$/web/students/Students_query_success.jsp" />
+        <option value="$PROJECT_DIR$/web/css/default.css" />
+        <option value="$PROJECT_DIR$/web/css/index.css" />
+        <option value="$PROJECT_DIR$/web/components/dtree/dtree.css" />
+        <option value="$PROJECT_DIR$/web/components/dtree/dtree.js" />
+        <option value="$PROJECT_DIR$/web/tree.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -235,7 +305,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="walterWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="walterWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="walterWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="walterWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,6 +356,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="walterWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="walterWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uestc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,11 +517,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myProject\walterWeb\web\js" />
       <recent name="D:\myProject\walterWeb\src" />
       <recent name="D:\myProject\walterWeb\src\main\webapp" />
       <recent name="D:\myProject\walterWeb\web\WEB-INF" />
       <recent name="D:\myProject\walterWeb\web\WEB-INF\web\WEB-INF" />
-      <recent name="D:\myProject\walterWeb\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\myProject\walterWeb\src\main\resources" />
@@ -777,12 +905,12 @@
       <created>1462256630691</created>
       <updated>1462256630691</updated>
       <workItem from="1462256631956" duration="2280000" />
-      <workItem from="1462258934953" duration="2717000" />
+      <workItem from="1462258934953" duration="3702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4997000" />
+    <option name="totallyTimeSpent" value="5982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -867,13 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bulletin_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cn/edu/uestc/teacher/TeachersTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="27" selection-start="375" selection-end="375" vertical-scroll-proportion="0.29761904" vertical-offset="0" max-vertical-offset="1300">
@@ -893,13 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="65" selection-start="367" selection-end="367" vertical-scroll-proportion="-4.4117646" vertical-offset="75" max-vertical-offset="500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="32" selection-start="595" selection-end="595" vertical-scroll-proportion="0.57319224" vertical-offset="0" max-vertical-offset="775">
@@ -907,23 +1021,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/uestc/action/students/StudentsAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="0" selection-start="3812" selection-end="3812" vertical-scroll-proportion="0.0" vertical-offset="2550" max-vertical-offset="3500">
+        <state line="96" column="0" selection-start="2764" selection-end="2764" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/users/Users_login_main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="42" selection-start="302" selection-end="302" vertical-scroll-proportion="8.088235" vertical-offset="450" max-vertical-offset="2400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/users/Users_login_success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1575">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/users/Users_login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="26" selection-start="5773" selection-end="5773" vertical-scroll-proportion="-14.941176" vertical-offset="7292" max-vertical-offset="8200">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="8200">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/uestc/action/students/StudentsAction.java">
+    <entry file="file://$PROJECT_DIR$/web/teachers/Teachers_add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="685" selection-end="685" vertical-scroll-proportion="-2.5273368" vertical-offset="1783" max-vertical-offset="2350">
+        <state line="170" column="0" selection-start="3791" selection-end="3791" vertical-scroll-proportion="-9.764706" vertical-offset="3918" max-vertical-offset="4425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/teachers/Teachers_add_success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/teachers/Teachers_find.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="0" selection-start="3289" selection-end="3289" vertical-scroll-proportion="-9.735294" vertical-offset="3519" max-vertical-offset="4000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/teachers/Teachers_find_success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="0" selection-start="3848" selection-end="3848" vertical-scroll-proportion="-9.0" vertical-offset="2994" max-vertical-offset="3475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/teachers/Teachers_modify.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="0" selection-start="4778" selection-end="4778" vertical-scroll-proportion="-9.735294" vertical-offset="4394" max-vertical-offset="4875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/teachers/Teachers_modify_success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="0" selection-start="2372" selection-end="2372" vertical-scroll-proportion="-9.735294" vertical-offset="1994" max-vertical-offset="2475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/teachers/Teachers_query_success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="0" selection-start="3799" selection-end="3799" vertical-scroll-proportion="-9.735294" vertical-offset="2919" max-vertical-offset="3400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/students/Students_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="0" selection-start="4269" selection-end="4269" vertical-scroll-proportion="-9.735294" vertical-offset="4369" max-vertical-offset="4850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/students/Students_add_success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="0" selection-start="2392" selection-end="2392" vertical-scroll-proportion="-9.0" vertical-offset="2019" max-vertical-offset="2500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/students/Students_detailed.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="0" selection-start="4154" selection-end="4154" vertical-scroll-proportion="-9.735294" vertical-offset="4369" max-vertical-offset="4850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/students/Students_find.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="0" selection-start="3292" selection-end="3292" vertical-scroll-proportion="-9.735294" vertical-offset="3519" max-vertical-offset="4000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/students/Students_find_success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="0" selection-start="3743" selection-end="3743" vertical-scroll-proportion="-9.0" vertical-offset="2869" max-vertical-offset="3350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/students/Students_modify.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="210" column="0" selection-start="5234" selection-end="5234" vertical-scroll-proportion="-9.0" vertical-offset="4944" max-vertical-offset="5425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/students/Students_modify_success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="0" selection-start="2373" selection-end="2373" vertical-scroll-proportion="-9.0" vertical-offset="2044" max-vertical-offset="2525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/students/Students_query_success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="0" selection-start="3646" selection-end="3646" vertical-scroll-proportion="-9.735294" vertical-offset="2844" max-vertical-offset="3325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="0" selection-start="3409" selection-end="3409" vertical-scroll-proportion="0.0" vertical-offset="4010" max-vertical-offset="4525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/dtree/dtree.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/dtree/dtree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="345" column="5" selection-start="12028" selection-end="12028" vertical-scroll-proportion="0.0" vertical-offset="8284" max-vertical-offset="8825">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bulletin_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/complaint_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="554">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="65" selection-start="367" selection-end="367" vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/news_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="554">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/role_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="554">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tree.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="0" selection-start="3258" selection-end="3258" vertical-scroll-proportion="-10.5" vertical-offset="2218" max-vertical-offset="2725">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="1" selection-start="3675" selection-end="3675" vertical-scroll-proportion="0.0" vertical-offset="5070" max-vertical-offset="10975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="3107" selection-end="3107" vertical-scroll-proportion="-0.66358596" vertical-offset="2459" max-vertical-offset="3525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/Calendar3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="369" column="25" selection-start="15141" selection-end="15141" vertical-scroll-proportion="15.325323" vertical-offset="934" max-vertical-offset="9500">
           <folding />
         </state>
       </provider>
